@@ -1,0 +1,56 @@
+=== 20M elements, 1000 iterations ===
+BabelStream
+Version: 5.0
+Implementation: HIP
+Running  Classic kernels 10 times in  Classic order 
+Number of elements: 50000000
+Precision: double
+Array size: 400.0 MB
+Total size: 1200.0 MB
+Using HIP device AMD Radeon Graphics
+Driver: 60443484
+Memory: DEFAULT
+Function    MB/s        Min (sec)   Max         Average     
+Copy        3421406.027 0.00023     0.00037     0.00027     
+Mul         3198822.833 0.00025     0.00027     0.00026     
+Add         3197075.741 0.00038     0.00039     0.00038     
+Triad       3255367.287 0.00037     0.00038     0.00037     
+Dot         2590237.395 0.00031     0.00036     0.00034     
+
+=== 20M elements, 5000 iterations ===
+BabelStream
+Version: 5.0
+Implementation: HIP
+Running  Classic kernels 10 times in  Classic order 
+Number of elements: 250000000
+Precision: double
+Array size: 2000.0 MB
+Total size: 6000.0 MB
+Using HIP device AMD Radeon Graphics
+Driver: 60443484
+Memory: DEFAULT
+Function    MB/s        Min (sec)   Max         Average     
+Copy        3166312.963 0.00126     0.00138     0.00132     
+Mul         3278505.788 0.00122     0.00137     0.00130     
+Add         3410811.819 0.00176     0.00185     0.00180     
+Triad       3440777.340 0.00174     0.00185     0.00179     
+Dot         2470338.949 0.00162     0.00192     0.00181     
+
+=== 20M elements, 10000 iterations ===
+BabelStream
+Version: 5.0
+Implementation: HIP
+Running  Classic kernels 10 times in  Classic order 
+Number of elements: 500000000
+Precision: double
+Array size: 4000.0 MB
+Total size: 12000.0 MB
+Using HIP device AMD Radeon Graphics
+Driver: 60443484
+Memory: DEFAULT
+Function    MB/s        Min (sec)   Max         Average     
+Copy        3345618.724 0.00239     0.00266     0.00251     
+Mul         3365208.872 0.00238     0.00250     0.00244     
+Add         3381239.867 0.00355     0.00370     0.00360     
+Triad       3267568.970 0.00367     0.00389     0.00379     
+Dot         2285248.095 0.00350     0.00361     0.00354     

@@ -1,0 +1,7 @@
+# Things that need to be change for future work
+
+- the topology is the same for all experiments and shows the full node, either this is not an error, then skip it for 
+  different level, or check why
+- For GPU experiemnt, more shorter jobs. we need to stess the scheduler, not the node.
+
+- 

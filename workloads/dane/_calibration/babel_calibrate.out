@@ -1,0 +1,141 @@
+=== 20M elements, 10 iterations ===
+BabelStream
+Version: 5.0
+Implementation: OpenMP
+Running  Classic kernels 8 times in  Classic order 
+Number of elements: 20000000
+Precision: double
+Array size: 160.0 MB
+Total size: 480.0 MB
+Function    MB/s        Min (sec)   Max         Average     
+Copy        15183.905   0.02107     0.02841     0.02293     
+Mul         14432.041   0.02217     0.03383     0.02557     
+Add         17855.550   0.02688     0.03922     0.03079     
+Triad       17332.702   0.02769     0.03828     0.03135     
+Dot         20748.038   0.01542     0.02565     0.01752     
+
+=== 20M elements, 50 iterations ===
+BabelStream
+Version: 5.0
+Implementation: OpenMP
+Running  Classic kernels 40 times in  Classic order 
+Number of elements: 20000000
+Precision: double
+Array size: 160.0 MB
+Total size: 480.0 MB
+Function    MB/s        Min (sec)   Max         Average     
+Copy        15157.758   0.02111     0.03321     0.02348     
+Mul         14632.978   0.02187     0.03484     0.02488     
+Add         17908.798   0.02680     0.04201     0.03043     
+Triad       17958.813   0.02673     0.04201     0.03006     
+Dot         21034.800   0.01521     0.02277     0.01667     
+
+=== 20M elements, 100 iterations ===
+BabelStream
+Version: 5.0
+Implementation: OpenMP
+Running  Classic kernels 80 times in  Classic order 
+Number of elements: 20000000
+Precision: double
+Array size: 160.0 MB
+Total size: 480.0 MB
+Function    MB/s        Min (sec)   Max         Average     
+Copy        15437.289   0.02073     0.03404     0.02428     
+Mul         14835.614   0.02157     0.03571     0.02543     
+Add         17673.869   0.02716     0.04170     0.03066     
+Triad       17947.391   0.02674     0.05806     0.03086     
+Dot         21255.981   0.01505     0.02412     0.01680     
+=== 20M elements, 10 iterations ===
+BabelStream
+Version: 5.0
+Implementation: OpenMP
+Running  Classic kernels 5 times in  Classic order 
+Number of elements: 20000000
+Precision: double
+Array size: 160.0 MB
+Total size: 480.0 MB
+Function    MB/s        Min (sec)   Max         Average     
+Copy        16145.839   0.01982     0.02101     0.02045     
+Mul         15717.938   0.02036     0.02126     0.02087     
+Add         18665.045   0.02572     0.02779     0.02663     
+Triad       18565.677   0.02585     0.02871     0.02683     
+Dot         20691.963   0.01546     0.01764     0.01630     
+
+=== 20M elements, 50 iterations ===
+BabelStream
+Version: 5.0
+Implementation: OpenMP
+Running  Classic kernels 30 times in  Classic order 
+Number of elements: 20000000
+Precision: double
+Array size: 160.0 MB
+Total size: 480.0 MB
+Function    MB/s        Min (sec)   Max         Average     
+Copy        15792.519   0.02026     0.04454     0.02658     
+Mul         15335.182   0.02087     0.04608     0.02745     
+Add         18072.653   0.02656     0.05266     0.03354     
+Triad       18338.177   0.02617     0.05071     0.03238     
+Dot         21101.640   0.01516     0.03535     0.01940     
+
+=== 20M elements, 100 iterations ===
+BabelStream
+Version: 5.0
+Implementation: OpenMP
+Running  Classic kernels 70 times in  Classic order 
+Number of elements: 20000000
+Precision: double
+Array size: 160.0 MB
+Total size: 480.0 MB
+Function    MB/s        Min (sec)   Max         Average     
+Copy        16019.962   0.01998     0.04540     0.02605     
+Mul         15318.994   0.02089     0.04644     0.02693     
+Add         18281.446   0.02626     0.05335     0.03322     
+Triad       18408.946   0.02607     0.05442     0.03348     
+Dot         21536.731   0.01486     0.03935     0.01934     
+=== 20M elements, 10 iterations ===
+BabelStream
+Version: 5.0
+Implementation: OpenMP
+Running  Classic kernels 5 times in  Classic order 
+Number of elements: 20000000
+Precision: double
+Array size: 160.0 MB
+Total size: 480.0 MB
+Function    MB/s        Min (sec)   Max         Average     
+Copy        16506.324   0.01939     0.01955     0.01949     
+Mul         16127.276   0.01984     0.02003     0.01998     
+Add         19448.427   0.02468     0.02502     0.02477     
+Triad       19530.450   0.02458     0.02479     0.02467     
+Dot         22896.518   0.01398     0.01406     0.01402     
+
+=== 20M elements, 50 iterations ===
+BabelStream
+Version: 5.0
+Implementation: OpenMP
+Running  Classic kernels 30 times in  Classic order 
+Number of elements: 20000000
+Precision: double
+Array size: 160.0 MB
+Total size: 480.0 MB
+Function    MB/s        Min (sec)   Max         Average     
+Copy        16405.818   0.01951     0.02132     0.01965     
+Mul         15992.740   0.02001     0.02169     0.02015     
+Add         19466.904   0.02466     0.02490     0.02473     
+Triad       19526.154   0.02458     0.02481     0.02466     
+Dot         22979.182   0.01393     0.01421     0.01403     
+
+=== 20M elements, 100 iterations ===
+BabelStream
+Version: 5.0
+Implementation: OpenMP
+Running  Classic kernels 70 times in  Classic order 
+Number of elements: 20000000
+Precision: double
+Array size: 160.0 MB
+Total size: 480.0 MB
+Function    MB/s        Min (sec)   Max         Average     
+Copy        16654.174   0.01921     0.02209     0.01970     
+Mul         16184.097   0.01977     0.02045     0.02018     
+Add         19657.838   0.02442     0.02529     0.02482     
+Triad       19754.737   0.02430     0.02528     0.02479     
+Dot         23177.368   0.01381     0.01526     0.01409     

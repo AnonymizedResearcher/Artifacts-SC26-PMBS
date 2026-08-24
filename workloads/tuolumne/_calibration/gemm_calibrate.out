@@ -1,0 +1,195 @@
+================================
+GEMM size = 10000000
+================================
+
+
+Running with 1 MPI ranks...
+
+
+Reading command line input...
+
+Setting up suite based on input...
+
+
+RAJA performance suite run summary....
+--------------------------------------
+
+How suite will be run:
+	 # passes = 1
+	 Kernel size = 1e+07
+	 Kernel min size = 0
+	 Kernel size factor = 1
+	 Kernel rep factor = 1
+	 Output files will be named gemm_10000000/RAJAPerf*
+
+Running with 1 MPI procs
+	 3D division = 1 x 1 x 1 
+
+The following kernels and variants (when available for a kernel) will be run:
+
+Data Spaces
+--------
+Seq - Host
+Hip - HipDevice
+
+Reduction Data Spaces
+--------
+Seq - Host
+Hip - HipDevice
+
+MPI Data Spaces
+--------
+Seq - Host
+Hip - HipPinned
+
+Variants and Tunings
+--------
+Base_HIP-block_256
+
+Kernel           ,    Problem size ,    Reps ,    Iterations/rep ,    Kernels/rep ,    BytesMoved/rep ,      FLOPS/rep ,    BytesTouched/rep ,    BytesRead/rep ,    BytesWritten/rep ,    BytesModifyWritten/rep ,    BytesAtomicModifyWritten/rep ,    BytesAllocated/rep , ChecksumConsistency          , OperationalComplexity   , MaxPerfectLoopDimensions    , ProblemDimensionality   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Polybench_GEMM   ,         9998244 ,       4 ,           9998244 ,              1 ,         271932000 ,   113810011452 ,           271932000 ,        191946048 ,            79985952 ,                         0 ,                               0 ,             271932000 , ConsistentPerVariantTuning   , O(N^(3/2))              ,                           2 ,                        2
+
+
+Run warmup kernels...
+
+Run kernel -- Basic_DAXPY
+
+
+Running specified kernels and variants...
+
+
+Generate run report files...
+
+
+DONE!!!....
+================================
+GEMM size = 30000000
+================================
+
+
+Running with 1 MPI ranks...
+
+
+Reading command line input...
+
+Setting up suite based on input...
+
+
+RAJA performance suite run summary....
+--------------------------------------
+
+How suite will be run:
+	 # passes = 1
+	 Kernel size = 3e+07
+	 Kernel min size = 0
+	 Kernel size factor = 1
+	 Kernel rep factor = 1
+	 Output files will be named gemm_30000000/RAJAPerf*
+
+Running with 1 MPI procs
+	 3D division = 1 x 1 x 1 
+
+The following kernels and variants (when available for a kernel) will be run:
+
+Data Spaces
+--------
+Seq - Host
+Hip - HipDevice
+
+Reduction Data Spaces
+--------
+Seq - Host
+Hip - HipDevice
+
+MPI Data Spaces
+--------
+Seq - Host
+Hip - HipPinned
+
+Variants and Tunings
+--------
+Base_HIP-block_256
+
+Kernel           ,    Problem size ,    Reps ,    Iterations/rep ,    Kernels/rep ,    BytesMoved/rep ,      FLOPS/rep ,    BytesTouched/rep ,    BytesRead/rep ,    BytesWritten/rep ,    BytesModifyWritten/rep ,    BytesAtomicModifyWritten/rep ,    BytesAllocated/rep , ChecksumConsistency          , OperationalComplexity   , MaxPerfectLoopDimensions    , ProblemDimensionality   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Polybench_GEMM   ,        29997529 ,       4 ,          29997529 ,              1 ,         815897736 ,   591461279293 ,           815897736 ,        575917504 ,           239980232 ,                         0 ,                               0 ,             815897736 , ConsistentPerVariantTuning   , O(N^(3/2))              ,                           2 ,                        2
+
+
+Run warmup kernels...
+
+Run kernel -- Basic_DAXPY
+
+
+Running specified kernels and variants...
+
+
+Generate run report files...
+
+
+DONE!!!....
+================================
+GEMM size = 70000000
+================================
+
+
+Running with 1 MPI ranks...
+
+
+Reading command line input...
+
+Setting up suite based on input...
+
+
+RAJA performance suite run summary....
+--------------------------------------
+
+How suite will be run:
+	 # passes = 1
+	 Kernel size = 7e+07
+	 Kernel min size = 0
+	 Kernel size factor = 1
+	 Kernel rep factor = 1
+	 Output files will be named gemm_70000000/RAJAPerf*
+
+Running with 1 MPI procs
+	 3D division = 1 x 1 x 1 
+
+The following kernels and variants (when available for a kernel) will be run:
+
+Data Spaces
+--------
+Seq - Host
+Hip - HipDevice
+
+Reduction Data Spaces
+--------
+Seq - Host
+Hip - HipDevice
+
+MPI Data Spaces
+--------
+Seq - Host
+Hip - HipPinned
+
+Variants and Tunings
+--------
+Base_HIP-block_256
+
+Kernel           ,    Problem size ,    Reps ,    Iterations/rep ,    Kernels/rep ,    BytesMoved/rep ,       FLOPS/rep ,    BytesTouched/rep ,    BytesRead/rep ,    BytesWritten/rep ,    BytesModifyWritten/rep ,    BytesAtomicModifyWritten/rep ,    BytesAllocated/rep , ChecksumConsistency          , OperationalComplexity   , MaxPerfectLoopDimensions    , ProblemDimensionality   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Polybench_GEMM   ,        70006689 ,       4 ,          70006689 ,              1 ,        1904128392 ,   2108671479369 ,          1904128392 ,       1344074880 ,           560053512 ,                         0 ,                               0 ,            1904128392 , ConsistentPerVariantTuning   , O(N^(3/2))              ,                           2 ,                        2
+
+
+Run warmup kernels...
+
+Run kernel -- Basic_DAXPY
+
+
+Running specified kernels and variants...
+
+
+Generate run report files...
+
+
+DONE!!!....
